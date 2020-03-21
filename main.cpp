@@ -4,25 +4,15 @@
 #include "hex.h"
 using namespace std;
 
-class Header {
-private:
-    std::list<Hex16> data;
-public:
-    // constructor creates empty Hex16 list
-    Header() : data() {};
-
-};
-
-
-
-
-
 int main() {
-    string hexval;
-    cout<<"Enter a 16 bit hex value: ";
-    cin>>hexval;
-    cout<<endl;
-    Hex16 a(hexval);
-    cout<<"0x"<<a.getBCD()<<" ";
+    Header hexList; // list of hexVal objects
+    int hexVal = 0;
+    cout<<"Enter a 16 bit hex values: ";
+    while(hexVal != -1){
+        cin>>std::hex>>hexVal;
+        auto a = new Hex16(hexVal);
+        hexList.insert(*a);
+    }
+    hexList.verify();
     return 0;
 }

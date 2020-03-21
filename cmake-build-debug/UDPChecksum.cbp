@@ -80,6 +80,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/austinfissinger/Clion_Projects/UDPChecksum/hex.h">
+			<Option target="UDPChecksum"/>
+		</Unit>
 		<Unit filename="/Users/austinfissinger/Clion_Projects/UDPChecksum/main.cpp">
 			<Option target="UDPChecksum"/>
 		</Unit>

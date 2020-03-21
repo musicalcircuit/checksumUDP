@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/austinfissinger/Clion_Projects/UDPChecksum/hex.h
+
+/Users/austinfissinger/Clion_Projects/UDPChecksum/main.cpp
+iostream
+-
+list
+-
+hex.h
+/Users/austinfissinger/Clion_Projects/UDPChecksum/hex.h
+cmath
+-
+
